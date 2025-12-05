@@ -9,7 +9,6 @@ body {
 
 #topo {
     background-image: url("./img/background.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     height: 380px;
 }
@@ -24,4 +23,48 @@ body {
     display: flex;
     justify-content: end;
     gap: 1.5rem;
+}
+
+#topo-sub-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+#topo-sub-2>h1 {
+    color: white;
+}
+
+#topo-sub-2-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#topo-sub-2-buttons button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+#topo-sub-2-buttons button:hover{
+    background-color: rgba(250, 250, 250, 0.2);
+    border-radius: 1.5rem;
+}
+
+#topo-sub-2-input button,
+#topo-sub-2-input input {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    background-color: rgba(250, 250, 250, 0.6);
+}
+
+#topo-sub-2-input input {
+    width: 600px;
 }
